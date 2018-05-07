@@ -1,0 +1,40 @@
+.image-container {
+	background-image: url('../images/photo-1515079769718-4db5eed13126.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 10% 0;
+
+	.imagetext {	
+		align-self: center;
+	    font-size: 3rem;
+	    text-shadow: 2px 2px gray;
+	    color: white;
+	}
+}
+
+.image-form {
+	align-self: center;
+	background-color: white;
+	border-radius: 5px;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	> .formheader {
+		text-align: center;
+		font-size: 18px;
+	}
+	> .headerimage {
+		height: 40px;
+		margin-bottom: 15px;
+	}
+	> .formbutton {
+		color: white;
+		&:hover {
+			color: white;
+		}
+	}
+}
+
+
+
+
