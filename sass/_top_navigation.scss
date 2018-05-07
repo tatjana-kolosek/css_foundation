@@ -1,0 +1,47 @@
+.list-items {
+	display:flex;
+	justify-content: center;
+	margin: 0 0;
+	padding: 0 0;
+}
+
+
+.navigation-top {
+	> .field {
+		padding-top: 0.5em;
+		margin: 0 0;
+		padding-left: 0;
+	}
+	.cart {
+		margin: 0 15px;
+	}
+
+	.link {
+		color: black;
+	}
+
+	.search {
+		padding-left: 15px;
+		margin-right: 0px;
+	}
+
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	padding-top: 15px;
+
+}
+
+.navigation-icons {
+	font-size: 1.7rem;
+}
+
+
+logo-image {
+	max-height: 50px;
+	max-width: 50px;
+	min-height: 50px;
+	min-width: 50px;
+
+}
+
